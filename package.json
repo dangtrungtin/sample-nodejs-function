@@ -1,7 +1,7 @@
 {
-  "name": "sample_nodejs_function",
+  "name": "sample-nodejs-function",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a sample code to check publish to npm package only.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
