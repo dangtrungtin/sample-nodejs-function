@@ -13,14 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-	steps:
-	  - uses: actions/checkout@v1
-	  - uses: actions/setup-node@v1
-		with:
-		  node-version: 12
-		  registry-url: https://registry.npmjs.org/
-	  - run: yarn install
-	  - run: npm publish --access public
-		env:
-		  NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+    	with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: yarn install
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
