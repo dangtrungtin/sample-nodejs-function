@@ -1,6 +1,6 @@
 {
   "name": "sample-nodejs-function",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This is a sample code to check publish to npm package only.",
   "main": "index.js",
   "scripts": {
