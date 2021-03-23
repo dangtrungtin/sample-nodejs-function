@@ -1,5 +1,11 @@
 # sample-nodejs-function
 
-Build from local: npm install
+Build from local:
+```cmd
+npm install
+```
 
-Install from npmjs: npm install sample-nodejs-function
+Install from npmjs:
+```cmd
+npm install sample-nodejs-function
+```
